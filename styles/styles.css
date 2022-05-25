@@ -1,0 +1,103 @@
+:root {
+    --main-color: #022866;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7 url(../img/pattern.png) repeat fixed left top;
+    background-size: auto;
+    font: normal bold 16px / 20px "Roboto", Helvetica, Arial, Verdana, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    padding: 0 50px;
+}
+
+
+.main {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.main__left {
+    max-width: 70%;
+    height: auto;
+}
+
+.main__side-bar {
+    width: 30%;
+    padding: 20px;
+    margin-left: 30px;
+    background-color: var(--main-color);
+    color: white;
+    opacity: 95%;
+}
+
+/* SHOP */
+
+#auction-nudge-items ul.an-page-wrap {
+    color: var(--main-color);
+}
+
+#auction-nudge-items div.an-item {
+    color: var(--main-color);
+}
+#an-cats-nav{
+    padding: 6px !important;
+}
+
+#an-search-submit {
+    background-color: var(--main-color) !important;
+    color: white;
+}
+
+#an-search-box {
+    color: var(--main-color);
+    border: solid 1px var(--main-color)!important;
+    padding: 4px !important;
+}
+
+.grid {
+    color: var(--main-color);
+}
+.info {
+
+}
+
+td{
+    background-color: white;
+    -webkit-box-shadow: 0 -5px 5px -5px rgba(2, 48, 84, 0.18) inset;
+    -moz-box-shadow: 0 -5px 5px -5px rgba(2, 48, 84, 0.18) inset;
+    box-shadow: 0 -5px 5px -5px rgba(2, 48, 84, 0.18) inset;
+}
+
+#an-item-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a[href="https://www.auctionnudge.com/tools/your-ebay-items"]{
+    display: none !important;
+}

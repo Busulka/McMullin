@@ -1,0 +1,30 @@
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.logo {
+
+}
+.fab {
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    color: white;
+    background-color: var(--main-color);
+    line-height: 2 !important;
+}
+.fab:hover {
+    color: var(--main-color);
+    background-color: white;
+}
+
+.icon {
+    margin-right: 8px;
+}
+
+.header-contact {
+    color: var(--main-color);
+}

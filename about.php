@@ -1,0 +1,19 @@
+<?php
+include "templates/header.php";
+include "templates/menu.php";
+?>
+  <h1>About Us</h1>
+
+    <div class="main container">
+        <div class="main__left">
+
+        </div>
+        <?php
+        include "templates/sidebar.php"
+        ?>
+    </div>
+
+
+<?php
+include "templates/footer.php";
+?>
