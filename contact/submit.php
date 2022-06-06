@@ -81,7 +81,7 @@ try {
     $mail->addReplyTo($_POST['email'], $_POST['name']);
 
     // Content
-    $mail->Subject = "[Contact Form] ".$_POST['subject'];
+    $mail->Subject = "[McMullin Motor Storage] ".$_POST['subject'];
     $mail->Body    = <<<EOT
 Name: {$_POST['name']}
 Email: {$_POST['email']}

@@ -8,7 +8,7 @@
 
 // The name and address which should be used for the sender details.
 // The name can be anything you want, the address should be something in your own domain. It does not need to exist as a mailbox.
-define('CONTACTFORM_FROM_ADDRESS', 'dana871@yandex.ru');
+define('CONTACTFORM_FROM_ADDRESS', 'menchi87@gmail.com');
 define('CONTACTFORM_FROM_NAME', 'Contact Form on McMullin');
 
 // The name and address to which the contact message should be sent.
@@ -17,9 +17,9 @@ define('CONTACTFORM_TO_ADDRESS', 'menchi87@gmail.com');
 define('CONTACTFORM_TO_NAME', 'Your Name');
 
 // The details of your SMTP service, e.g. Gmail.
-define('CONTACTFORM_SMTP_HOSTNAME', 'smtp.yandex.ru');
-define('CONTACTFORM_SMTP_USERNAME', 'dana871@yandex.ru');
-define('CONTACTFORM_SMTP_PASSWORD', 'offqtekkhcyxfwjd');
+define('CONTACTFORM_SMTP_HOSTNAME', 'smtp.gmail.com');
+define('CONTACTFORM_SMTP_USERNAME', 'menchi87@gmail.com');
+define('CONTACTFORM_SMTP_PASSWORD', 'udmtnqrrsmikxdik');
 
 // The reCAPTCHA credentials for your site. You can get these at https://www.google.com/recaptcha/admin
 define('CONTACTFORM_RECAPTCHA_SITE_KEY', '6LexzRkgAAAAAPuNfcplrrFFrQt1TXRLCjylyMZS');
