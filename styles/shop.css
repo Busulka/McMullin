@@ -1,0 +1,128 @@
+#auction-nudge-items {
+    width: 100%;
+    color: var(--main-color);
+    }
+
+#an-controls-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.an-cats-dropdown{
+    width: 240px;
+    margin-right: 10px;
+}
+
+#an-cats-nav {
+    width: 240px;
+    height: 41px;
+    color: var(--main-color);
+}
+
+#an-search-wrap {
+    display: inline-block;
+    float: right;
+    width: 50%;
+    min-width: 240px;
+    text-align: right;
+
+}
+
+#an-search-submit {
+    background-color: var(--main-color);
+    color: white;
+    display: inline-block;
+    padding: 6px 8px;
+    cursor: pointer;
+    border-radius: 0 2px 2px 0;
+
+}
+
+#an-search-box {
+    display: inline-block;
+    color: var(--main-color);
+    border: solid 1px var(--main-color);
+    border-radius: 2px 0 0 2px;
+    background: rgba(255, 255, 255, 0.8);
+    width: 240px;
+    height: 41px;
+    padding: 5px;
+    text-align: left;
+}
+
+.an-page-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+    padding: 8px;
+    background: #2e3f7f08;
+}
+
+.an-inactive{
+    opacity: 0.2;
+    cursor: not-allowed;
+}
+
+.an-page-prev{
+    cursor: pointer;
+}
+
+.an-page-next{
+    cursor: pointer;
+}
+
+#an-item-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item{
+    width: 320px;
+    background: #F8F8F8;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    text-align: left;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.item>li{
+    text-align: center;
+}
+
+
+.image-container{
+    width: 320px;
+    height: 415px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.image-container>a{
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    background-color: var(--main-color);
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.title>a {
+    color: white;
+padding: 5px;
+}
+.price, .ends {
+    padding: 5px;
+}
+a[href="https://www.auctionnudge.com/tools/your-ebay-items"] {
+    display: none !important;
+}
