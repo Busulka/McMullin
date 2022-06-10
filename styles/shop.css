@@ -65,7 +65,7 @@
 }
 
 .an-page-prev{
-    cursor: pointer;
+    cursor: not-allowed;;
 }
 
 .an-page-next{
@@ -86,7 +86,7 @@
     flex-direction: column;
     margin: 20px;
     text-align: left;
-    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
 }
 
 .item>li{

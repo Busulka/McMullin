@@ -9,14 +9,30 @@
                 <li><a class="footer__menu-list__link" href="../contact.php">Contact</a></li>
             </ul>
         </nav>
+        <div class="footer__center">
+            <p class="footer__center-text">We accept all major credit and debit cards (except American Express)</p>
+            <div class="payment">
+                <img src="../img/mastercard.png" class="payment__icon">
+                <img src="../img/maestro.png" class="payment__icon">
+                <img src="../img/visa.png" class="payment__icon">
+                <img src="../img/visadebit.png" class="payment__icon">
+                <img src="../img/solo.png" class="payment__icon">
+                <img src="../img/switch.png" class="payment__icon">
+                <object data="../img/bank-transfer.svg" class="payment__icon"></object>
+                <object data="../img/cash.svg" class="payment__icon"></object>
+
+            </div>
+        </div>
         <address class="footer__top-right">
-            <h3 class="footer__contact-header">Contact Details</h3>
-            <h4 class="footer__contact">McMullin Motor Storage</h4>
-            <p class="footer__contact">Quarry Road Depot, Yealmbridge</p>
-            <p class="footer__contact">Plymouth</p>
-            <p class="footer__contact">Devon</p>
-            <p class="footer__contact">PL8 2EG</p>
-            <p class="footer__contact">Telephone: 01752 402020</p>
+            <div class="footer__top-right-text">
+                <h3 class="footer__contact-header">Contact Details</h3>
+                <h4 class="footer__contact">McMullin Motor Storage</h4>
+                <p class="footer__contact">Quarry Road Depot, Yealmbridge</p>
+                <p class="footer__contact">Plymouth</p>
+                <p class="footer__contact">Devon</p>
+                <p class="footer__contact">PL8 2EG</p>
+                <p class="footer__contact">Telephone: 01752 402020</p>
+            </div>
         </address>
     </div>
     <div class="footer_bottom container">

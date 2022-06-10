@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Lobster";
+    src: url(../fonts/Lobster-Regular.ttf);
+}
+@font-face {
+    font-family: "Acme";
+    src: url(../fonts/Acme-Regular.ttf);
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -26,23 +35,33 @@ a {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
 h1 {
     color: var(--main-color);
+    font-family: Lobster, serif;
+    line-height: 50px;
+    margin-top: 0;
 }
 
-.container{
+h2, h3 {
+    font-family: Acme, serif;
+    font-weight: 300;
+    color: var(--main-color);
+}
 
-    padding-left: clamp(15px, 10%, 50px);
-    padding-right: clamp(15px, 10%, 50px);
+.container, .main{
+
+    padding-left: clamp(15px, 10%, 150px);
+    padding-right: clamp(15px, 10%, 150px);
 }
 
 
 .main {
-    padding: clamp(15px, 10%, 50px);
+    padding-top: clamp(15px, 10%, 50px);
+    padding-bottom: clamp(15px, 10%, 50px);
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -57,7 +76,7 @@ h1 {
 }
 
 .main__side-bar {
-    width: 30%;
+    width: clamp(250px, 30%, 350px);
     float: left;
     padding: 20px;
     margin-left: 30px;
@@ -66,6 +85,44 @@ h1 {
     opacity: 95%;
 }
 
+.side-bar-img {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.side-bar-header {
+    color: white;
+    font-family: Acme, serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+.side-bar-text{
+    font-size: 18px;
+}
+.side-bar-services{
+    display: inline-block;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    color: var(--main-color);
+    font-family: Lobster, serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 100px;
+}
+
+.side-bar-services:hover{
+    border: 2px solid #315082;
+}
+
+.map{
+    -webkit-box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
 
 .car-icon{
     fill: var(--main-color);
